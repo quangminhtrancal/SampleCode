@@ -12,7 +12,7 @@ public class MonthEndAgeCalculator {
                 startOfPeriod = dateInNextYear;
             }
             else{
-				countYears += remainingDays / daysInMostRecentYear;                
+		countYears += remainingDays / daysInMostRecentYear;                
             }
             remainingDays -= daysInMostRecentYear;
         }
